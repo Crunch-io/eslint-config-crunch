@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-crunch",
+  "version": "1.0.0",
+  "description": "eslint configuration used in crunch.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crunch-io/eslint-config-crunch.git"
+  },
+  "keywords": [
+    "crunch.io",
+    "javascript",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "code style",
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Crunch.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crunch-io/eslint-config-crunch/issues"
+  },
+  "homepage": "https://github.com/Crunch-io/eslint-config-crunch#readme",
+  "peerDependencies": {
+    "eslint": "^3.16.1"
+  }
+}

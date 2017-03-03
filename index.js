@@ -58,7 +58,7 @@ module.exports = {
         "no-global-assign": "error",
         "no-implicit-coercion": ["error", { "allow": ["!!"] } ],
         "no-implied-eval": "error",
-        "no-invalid-this": "error",
+        "no-invalid-this": "warn",
         "no-iterator": "error",
         "no-labels": "error",
         "no-lone-blocks": "error",

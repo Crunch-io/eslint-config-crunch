@@ -163,7 +163,7 @@ module.exports = {
             "ignoreStrings": false,
             "ignoreTemplateLiterals": true
         }],
-        "new-cap": "error",
+        "new-cap": "warn",
         "new-parens": "error",
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",

@@ -18,6 +18,11 @@ module.exports = {
         "inject": true,
         "expect": true
     },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
     // Any rule not explicitly defined here was, at the time of writing,
     // a default of the eslint recommended ruleset.
     "rules": {

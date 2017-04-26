@@ -43,7 +43,7 @@ module.exports = {
         "consistent-return": "off",
         "curly": "error",
         // to fix: add a default with a console.warn
-        "default-case": "error",
+        "default-case": "warn",
         "dot-location": ["error", "property"],
         "dot-notation": "off",
         "guard-for-in": "error",

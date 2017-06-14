@@ -173,7 +173,7 @@ module.exports = {
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
         "newline-per-chained-call": ["error", {
-            "ignoreChainWithDepth": 2
+            "ignoreChainWithDepth": 5
         }],
         "no-array-constructor": "error",
         "no-bitwise": "error",

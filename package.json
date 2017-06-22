@@ -31,7 +31,5 @@
   "peerDependencies": {
     "eslint": "^3.16.1"
   },
-  "devDependencies": {
-    "eslint-plugin-react": "^7.1.0"
-  }
+  "devDependencies": {}
 }

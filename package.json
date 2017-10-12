@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-crunch",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "eslint configuration used in crunch.io",
   "main": "index.js",
   "scripts": {

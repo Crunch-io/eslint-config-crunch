@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-crunch",
-  "version": "1.1.2",
+  "version": "1.3.0",
   "description": "eslint configuration used in crunch.io",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Crunch-io/eslint-config-crunch#readme",
   "peerDependencies": {
-    "eslint": "^3.16.1"
+    "eslint": "^4.1.1"
   },
   "devDependencies": {}
 }

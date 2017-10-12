@@ -4,19 +4,14 @@ module.exports = {
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": "eslint:recommended",
     "globals": {
         "angular": true,
-        // testing
-        "describe": true,
-        "beforeEach": true,
-        "context": true,
-        "it": true,
-        "afterEach": true,
         "inject": true,
-        "expect": true
+        "expectJest": true
     },
     "parserOptions": {
         "ecmaFeatures": {

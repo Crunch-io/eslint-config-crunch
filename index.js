@@ -11,7 +11,8 @@ module.exports = {
     "globals": {
         "angular": true,
         "inject": true,
-        "expectJest": true
+        "expectJest": true,
+	"process": true
     },
     "parserOptions": {
         "ecmaFeatures": {

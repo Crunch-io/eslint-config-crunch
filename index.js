@@ -210,8 +210,7 @@ module.exports = {
         "object-property-newline": ["error", {
             "allowMultiplePropertiesPerLine": true
         }],
-        "one-var-declaration-per-line": ["error", "initializations"],
-        "one-var": "off",
+        "one-var": ["error", { "initialized": "never" }],
         "operator-assignment": "off",
         "operator-linebreak": "off",
         //"padded-blocks": ["error", "never"],

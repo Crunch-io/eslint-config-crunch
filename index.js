@@ -12,13 +12,13 @@ module.exports = {
         "angular": true,
         "inject": true,
         "expectJest": true,
-	"process": true
+        "process": true
     },
     "parserOptions": {
+        "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
-        },
-	"sourceType": "module"
+        }
     },
     "plugins": [
         "react"
@@ -68,7 +68,7 @@ module.exports = {
         "no-fallthrough": "off",
         "no-floating-decimal": "error",
         "no-global-assign": "error",
-        "no-implicit-coercion": ["error", { "allow": ["!!"] } ],
+        "no-implicit-coercion": ["error", { "allow": ["!!"] }],
         "no-implied-eval": "error",
         "no-invalid-this": "warn",
         "no-iterator": "error",
@@ -153,47 +153,59 @@ module.exports = {
         "func-names": ["error", "as-needed"],
         "func-style": ["error", "declaration", { "allowArrowFunctions": false }],
 
-        "indent": ["error", 4, {
-            "SwitchCase": 1
-        }],
+        "indent": [
+            "error", 4, {
+                "SwitchCase": 1
+            }
+        ],
         "jsx-quotes": ["error", "prefer-double"],
-        "key-spacing": ["error", {
-            "beforeColon": false,
-            "afterColon": true,
-            "mode": "strict"
-        }],
-        "keyword-spacing": ["error", {
-            "before": true,
-            "after": true
-        }],
-        "linebreak-style": ["error", process.platform === "win32" ? "windows": "unix"],
+        "key-spacing": [
+            "error", {
+                "beforeColon": false,
+                "afterColon": true,
+                "mode": "strict"
+            }
+        ],
+        "keyword-spacing": [
+            "error", {
+                "before": true,
+                "after": true
+            }
+        ],
+        "linebreak-style": ["error", process.platform === "win32" ? "windows" : "unix"],
         "lines-around-directive": ["error", "always"],
-        "max-len": ["warn", 100, {
-            "ignoreComments": true,
-            "ignoreUrls": true,
-            "ignoreRegExpLiterals": true,
-            "ignoreStrings": false,
-            "ignoreTemplateLiterals": true
-        }],
+        "max-len": [
+            "warn", 100, {
+                "ignoreComments": true,
+                "ignoreUrls": true,
+                "ignoreRegExpLiterals": true,
+                "ignoreStrings": false,
+                "ignoreTemplateLiterals": true
+            }
+        ],
         "new-cap": "warn",
         "new-parens": "error",
         "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
-        "newline-per-chained-call": ["error", {
-            "ignoreChainWithDepth": 5
-        }],
+        "newline-per-chained-call": [
+            "error", {
+                "ignoreChainWithDepth": 5
+            }
+        ],
         "no-array-constructor": "error",
         "no-bitwise": "error",
         "no-continue": "error",
         "no-lonely-if": "error",
-        "no-mixed-operators": ["error", {
-            "groups": [
-                ["&", "|", "^", "~", "<<", ">>", ">>>"],
-                ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
-                ["&&", "||"],
-                ["in", "instanceof"]
-            ]
-        }],
+        "no-mixed-operators": [
+            "error", {
+                "groups": [
+                    ["&", "|", "^", "~", "<<", ">>", ">>>"],
+                    ["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+                    ["&&", "||"],
+                    ["in", "instanceof"]
+                ]
+            }
+        ],
         "no-multi-assign": "off",
         "no-multiple-empty-lines": ["error", { "max": 1 }],
         "no-negated-condition": "error",
@@ -208,9 +220,11 @@ module.exports = {
         "no-whitespace-before-property": "error",
         "object-curly-newline": ["error", { "multiline": true }],
         "object-curly-spacing": ["error", "always"],
-        "object-property-newline": ["error", {
-            "allowMultiplePropertiesPerLine": true
-        }],
+        "object-property-newline": [
+            "error", {
+                "allowMultiplePropertiesPerLine": true
+            }
+        ],
         "one-var": ["error", { "initialized": "never" }],
         "operator-assignment": "off",
         "operator-linebreak": "off",

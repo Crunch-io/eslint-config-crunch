@@ -207,7 +207,7 @@ module.exports = {
             }
         ],
         "no-multi-assign": "off",
-        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0 }],
         "no-negated-condition": "error",
         "no-nested-ternary": "off",
         "no-new-object": "error",

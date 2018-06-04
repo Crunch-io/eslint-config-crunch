@@ -151,7 +151,7 @@ module.exports = {
         "func-call-spacing": ["error", "never"],
         "func-name-matching": "off",
         "func-names": ["error", "as-needed"],
-        "func-style": ["error", "declaration", { "allowArrowFunctions": false }],
+        "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
 
         "indent": [
             "error", 4, {

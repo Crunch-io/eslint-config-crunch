@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/Crunch-io/eslint-config-crunch#readme",
   "peerDependencies": {
-    "eslint": "^4.1.1"
-  },
-  "devDependencies": {}
+    "eslint": "^4.19.1"
+  }
 }

@@ -204,7 +204,7 @@ module.exports = {
         ],
         "new-cap": "warn",
         "new-parens": "error",
-        "newline-after-var": ["error", "always"],
+        "newline-after-var": "off",
         "newline-before-return": "error",
         "newline-per-chained-call": [
             "error", {

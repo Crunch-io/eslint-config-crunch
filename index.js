@@ -194,7 +194,7 @@ module.exports = {
         "linebreak-style": ["error", process.platform === "win32" ? "windows" : "unix"],
         "lines-around-directive": ["error", "always"],
         "max-len": [
-            "warn", 100, {
+            "warn", 120, {
                 "ignoreComments": true,
                 "ignoreUrls": true,
                 "ignoreRegExpLiterals": true,

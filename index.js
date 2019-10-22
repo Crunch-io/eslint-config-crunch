@@ -194,7 +194,7 @@ module.exports = {
         "linebreak-style": ["error", process.platform === "win32" ? "windows" : "unix"],
         "lines-around-directive": ["error", "always"],
         "max-len": [
-            "warn", 100, {
+            "warn", 120, {
                 "ignoreComments": true,
                 "ignoreUrls": true,
                 "ignoreRegExpLiterals": true,
@@ -237,7 +237,7 @@ module.exports = {
         "no-underscore-dangle": "off",
         "no-unneeded-ternary": "error",
         "no-whitespace-before-property": "error",
-        "object-curly-newline": ["error", { "multiline": true }],
+        "object-curly-newline": ["error", { "consistent": true }],
         "object-curly-spacing": ["error", "always"],
         "object-property-newline": [
             "error", {
@@ -256,7 +256,7 @@ module.exports = {
         "quote-props": ["error", "consistent-as-needed"],
         "semi": [
             "error",
-            "never"
+            "always"
         ],
         "semi-spacing": "error",
         "space-before-blocks": ["error", "always"],

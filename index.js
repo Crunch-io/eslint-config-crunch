@@ -247,8 +247,14 @@ module.exports = {
         "one-var": ["error", { "initialized": "never" }],
         "operator-assignment": "off",
         "operator-linebreak": "off",
-        //"padded-blocks": ["error", "never"],
         "padded-blocks": "off",
+        "padding-line-between-statements": [
+            "warn",
+            { blankLine: 'always', prev: '*', next: 'block' },
+            { blankLine: 'always', prev: 'block', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'block-like' },
+            { blankLine: 'always', prev: 'block-like', next: '*' },
+        ],
         "quotes": [
             "error",
             "single"

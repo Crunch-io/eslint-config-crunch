@@ -295,6 +295,13 @@ module.exports = {
         "rest-spread-spacing": ["error", "never"],
         "symbol-description": "error",
         "template-curly-spacing": "error",
-        "yield-star-spacing": ["error", "before"]
+        "yield-star-spacing": ["error", "before"],
+
+	// react-testing-library best practices
+	"no-restricted-properties": [2, {
+	        "property": "querySelector",
+	        "message": "Avoid usage of querySelector - Replace with queryByTestid or similar"
+	    }
+	]
     }
 };
